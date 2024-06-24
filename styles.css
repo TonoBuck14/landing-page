@@ -1,0 +1,99 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+  }
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+}
+
+ul {
+    /* this removes the dots on the list items*/
+    list-style-type: none;
+    display: flex;
+    gap: 8px;
+  }
+
+a{
+    text-decoration: none;
+    color: gray;
+}
+
+.info{
+    height: 400px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.information{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+    
+}
+
+.boxes{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #eee;
+    border-color: blue;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    border-radius: 4px;
+    padding: 16px;
+    
+}
+
+
+.quote{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: bisque;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.footer {
+    height: 72px;
+    background-color: #1F2937;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+.text-info{
+    height: 250px;
+    width: 350px;
+    background-color: aquamarine;
+}
+
+.image-info{
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+}
